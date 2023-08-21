@@ -7,6 +7,17 @@ const Page = async () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center pt-8">
       <h1 className="text-2xl font-bold mb-5 text-gray-900">Links stats</h1>
+      <p>Add an alias to the end the URL to go to the target URL</p>
+      <p className="mb-5">
+        Example:{' '}
+        <a
+          href="https://links.codegino.com/gino"
+          className="text-blue-600 hover:text-blue-500"
+        >
+          https://links.codegino.com/gino
+        </a>
+      </p>
+
       <div className="flex flex-col items-center overflow-hidden">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
